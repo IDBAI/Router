@@ -1,0 +1,1 @@
+include ':app', ':router-icore', ':musicmodule', ':picmodule', ':common', ':bigmemorymodule', ':router-annotation', ':router-compiler'

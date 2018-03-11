@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:text="这个是音乐模块的页面哦"
+        android:textSize="20sp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/btnToPic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="musicOnClick"
+        android:text="跳转至图片模块的主页面" />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/btnToBigMemory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="musicOnClick"
+        android:text="跳转至大内存消耗模块（另一个进程）的主页面" />
+
+
+
+</LinearLayout>

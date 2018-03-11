@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="这个是大內存消耗模块（另一个进程）的页面哦"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnToPlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:onClick="menOnClick"
+        android:text="点击播放音乐模块的音乐" />
+
+    <Button
+        android:id="@+id/btnToStop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:onClick="menOnClick"
+        android:text="点击停止音乐模块的音乐" />
+    <Button
+        android:id="@+id/btnToShutDown"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:onClick="menOnClick"
+        android:text="点击模拟此进程崩溃" />
+
+    <Button
+        android:id="@+id/btnToPic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:onClick="menOnClick"
+        android:text="点击进入图片模块首页" />
+
+
+    <Button
+        android:id="@+id/btnMemoryCallback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="menOnClick"
+        android:padding="20dp"
+        android:text="测试大内存模块回调到APP模块"
+        android:textAllCaps="false" />
+
+
+    <TextView
+        android:id="@+id/tvMusicInfoShow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>

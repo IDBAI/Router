@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Router.iml" filepath="$PROJECT_DIR$/Router.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bigmemorymodule/bigmemorymodule.iml" filepath="$PROJECT_DIR$/bigmemorymodule/bigmemorymodule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/musicmodule/musicmodule.iml" filepath="$PROJECT_DIR$/musicmodule/musicmodule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/picmodule/picmodule.iml" filepath="$PROJECT_DIR$/picmodule/picmodule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/router-annotation/router-annotation.iml" filepath="$PROJECT_DIR$/router-annotation/router-annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/router-compiler/router-compiler.iml" filepath="$PROJECT_DIR$/router-compiler/router-compiler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/router-icore/router-icore.iml" filepath="$PROJECT_DIR$/router-icore/router-icore.iml" />
+    </modules>
+  </component>
+</project>

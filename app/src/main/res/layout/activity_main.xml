@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnToMusic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="mainOnClick"
+        android:padding="20dp"
+        android:text="跳转至音乐模块的主页面" />
+
+    <Button
+        android:id="@+id/btnToPic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="mainOnClick"
+        android:padding="20dp"
+        android:text="跳转至图片模块的主页面" />
+
+    <Button
+        android:id="@+id/btnToMemory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="mainOnClick"
+        android:padding="20dp"
+        android:text="跳转至大内存消耗模块（在另一个进程）的主页面" />
+
+    <Button
+        android:id="@+id/btnToStartActForResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="mainOnClick"
+        android:padding="20dp"
+        android:text="模块间的startActivityForResult实现方式（同一个进程）"
+        android:textAllCaps="false" />
+    <Button
+        android:id="@+id/btnPlayMusic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="mainOnClick"
+        android:padding="20dp"
+        android:text="播放音乐（跨进程）"
+        android:textAllCaps="false" />
+
+
+    <TextView
+        android:id="@+id/tvMusicPlayStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="正在播放" />
+
+</LinearLayout>

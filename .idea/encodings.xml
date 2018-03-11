@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/test/java/com/yibasan/fm/routerapp/ThreadTest.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/router-annotation/src/main/java/com/idba/annotation/inject/InjectParams.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/router-annotation/src/main/java/com/idba/annotation/router/CombinationUri.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/router-annotation/src/main/java/com/idba/annotation/router/IntentExtrasParam.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/router-compiler/src/main/java/com/idba/compiler/processor/InjectProcessor.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/router-compiler/src/main/java/com/idba/compiler/processor/TargetClass.java" charset="UTF-8" />
+  </component>
+</project>

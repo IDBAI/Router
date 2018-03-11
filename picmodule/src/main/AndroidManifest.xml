@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.idba.picmodule">
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true">
+        <activity android:name=".act.PicMainActivity"
+            android:screenOrientation="portrait"
+            ></activity>
+    </application>
+
+</manifest>
